@@ -35,6 +35,7 @@ jobs:
         uses: hashicorp/terraform-github-actions@master
         with:
           tf_actions_version: 0.15.0
+          tf_actions_subcommand: 'refresh'
           tf_actions_subcommand: 'plan'
           tf_actions_comment: true
         env:
