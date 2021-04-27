@@ -5,5 +5,6 @@ resource "azurerm_resource_group" "bds_dev_purview_rg" {
     environment = "dev"
 	description = "BDS dev resource group"
   }
+  
 
 }
