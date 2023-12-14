@@ -223,3 +223,5 @@ eclcc.log
 #terraform 
 terraform.exe
 terraform-provider-oci.exe
+.terraform
+.terraform.lock.hcl
